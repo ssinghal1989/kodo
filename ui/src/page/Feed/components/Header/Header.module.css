@@ -1,0 +1,44 @@
+/** title container  */
+.titleContainer {
+  display: flex;
+}
+/** controls  */
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/** search box  */
+.controls .searchBox {
+  position: relative;
+}
+.controls .searchBox input {
+  padding: 0.25rem;
+  width: calc(100% - .75rem);
+}
+.controls .searchBox .icon {
+  position: absolute;
+  right: .25rem;
+  top: .25rem;
+  cursor: pointer;
+}
+/** sorting list  */
+.controls .sortControl select {
+  padding: 0.25rem;
+}
+
+@media screen and (max-width:481px) {
+  .controls .sortControl {
+    margin-top: 1rem;
+  }
+  .controls {
+    flex-direction: column;
+  }
+  .controls .sortControl {
+    width: 100%;
+  }
+
+  .controls .sortControl select{
+    width: 100%;
+  }
+}

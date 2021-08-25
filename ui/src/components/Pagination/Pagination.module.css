@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.container .button {
+  padding: .25rem .5rem;
+  border: .25px solid gray;
+  cursor: pointer;
+}
+
+.container .current {
+  background-color: gray;
+  color: white;
+}

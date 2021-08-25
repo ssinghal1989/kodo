@@ -1,0 +1,14 @@
+.container {
+  overflow: auto;
+}
+.table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  overflow: auto;
+  margin-bottom: 1rem;
+}
+
+.table td, .table th {
+  border: 1px solid gray;
+  padding: .5rem;
+}

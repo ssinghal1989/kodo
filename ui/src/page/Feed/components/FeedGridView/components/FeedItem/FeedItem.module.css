@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid gray;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container .description {
+  padding: 1rem;
+}
