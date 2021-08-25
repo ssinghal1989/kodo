@@ -2,7 +2,7 @@ import express from 'express';
 import { getFeeds } from './routes/feeds';
 
 const app = express();
-const port = 3000;
+const port = 3005;
 
 /**
  * Get Feeds
