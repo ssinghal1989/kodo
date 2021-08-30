@@ -8,7 +8,7 @@ type Props = {
 export const FeedTableView: React.FC<Props> = ({ items }) => {
   return (
     <div className={styles.container}>
-      <table className={styles.table}>
+      <table className={styles.table} data-testid="feedTable">
         <thead>
           <tr>
             <th>Name</th>

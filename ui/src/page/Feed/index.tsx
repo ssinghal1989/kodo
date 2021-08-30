@@ -50,7 +50,6 @@ export const Feed = () => {
 
   const fetchFeeds = async (params: FeedParams) => {
     const feeds: FeedResponse = await getFeeds(params) as FeedResponse;
-    console.log('feeds', feeds);
     setFeeds(feeds.feeds);
     setCurrentPage(parseInt(params.page));
     setTotalPages(Math.ceil(feeds.totalCount/PAGE_SIZE));
